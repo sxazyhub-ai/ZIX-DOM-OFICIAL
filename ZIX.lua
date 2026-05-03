@@ -14,7 +14,7 @@ if not displayName or displayName == "" then
 end
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
-local title = ("ZIX Hub | Hello -%s"):format(displayName)
+local title = ("ZIX-DOM | Hello -%s"):format(displayName)
 
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/wqJ8PvkW", true))()
 
