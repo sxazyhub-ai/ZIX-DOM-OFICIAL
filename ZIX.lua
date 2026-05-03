@@ -16,8 +16,8 @@ local library = loadstring(game:HttpGet("https://pastebin.com/raw/wqJ8PvkW", tru
 local player = game.Players.LocalPlayer
 local displayName = player.DisplayName or player.Name
 
-local window = library:AddWindow("K1LL COMUNITY - Public | Welcome ".. displayName, {
-    main_color = Color3.fromRGB(176, 0, 32),
+local window = library:AddWindow("ZIX-DOM - Public | Welcome ".. displayName, {
+    main_color = Color3.fromRGB(40, 20, 15),
     min_size = Vector2.new(650, 870),
     can_resize = true,
 })
