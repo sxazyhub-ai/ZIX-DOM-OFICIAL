@@ -7,7 +7,7 @@ local Lighting = game:GetService("Lighting")
 local StarterGui = game:GetService("StarterGui")
 local LocalPlayer = Players.LocalPlayer
 
-local LibraryData = { loadstring(game:HttpGet("https://pastebin.com/raw/wqJ8PvkW", true))() }
+local LibraryData = loadstring(game:HttpGet("https://pastebin.com/raw/wqJ8PvkW", true))(){
 local Library = loadstring(unpack_fn(LibraryData))
 local UI = Library()
 
