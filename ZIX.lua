@@ -7,11 +7,11 @@ local Lighting = game:GetService("Lighting")
 local StarterGui = game:GetService("StarterGui")
 local LocalPlayer = Players.LocalPlayer
 
-local LibraryData = loadstring(game:HttpGet("https://pastebin.com/raw/wqJ8PvkW", true))()
+local LibraryData = { game:HttpGet("https://pastebin.com/raw/wqJ8PvkW", true) }
 local Library = loadstring(unpack_fn(LibraryData))
 local UI = Library()
 
-local Window = UI:AddWindow("ZIX-DOM | Hello " .. LocalPlayer.DisplayName, {
+local Window = UI:AddWindow("Genesis Hub FULL DEOBUSCATED | Hello " .. LocalPlayer.DisplayName, {
     main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(680, 870),
     can_resize = true
